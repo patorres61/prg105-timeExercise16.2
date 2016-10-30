@@ -29,14 +29,14 @@ def is_after(t1, t2):
 # this object will be evaluated to determine if it follows time2
 time1 = Time()
 time1.hour = 9
-time1.minute = 01
+time1.minute = 15
 time1.second = 10
 
 # create time2 object and populate the hour, minute, and second fields
 # this object will be evaluated to determine if it comes before time1
 time2 = Time()
 time2.hour = 10
-time2.minute = 01
+time2.minute = 1
 time2.second = 20
 
 # convert time1 to seconds
