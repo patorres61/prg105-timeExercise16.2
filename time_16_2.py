@@ -6,11 +6,14 @@ print('16.2 Time Assignment\n')
 print('Phyllis Torres\n\n')
 
 # create a time class
-# noinspection PyClassHasNoInit
 class Time:
     """Represents the time of day
     attributes: hour, minute, second
     """
+
+    def __init__(self):
+        pass
+
 
 # create function to convert time to an integer
 def time_to_int(time):
@@ -49,7 +52,3 @@ result = is_after(time1, time2)
 print ('Time 1 = ' + '%.2d:%.2d:%2d' % (time1.hour, time1.minute, time1.second))
 print ('\nTime 2 = ' + '%.2d:%.2d:%2d' % (time2.hour, time2.minute, time2.second))
 print ('\n%.2d:%.2d:%.2d' % (time1.hour, time1.minute, time1.second) + result + '%.2d:%.2d:%.2d' % (time2.hour, time2.minute, time2.second) + ' chronologically.')
-
-
-
-
